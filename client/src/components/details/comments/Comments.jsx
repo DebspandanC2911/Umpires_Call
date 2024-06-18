@@ -72,7 +72,7 @@ const Comments = ({ post }) => {
                 <Image src={url} alt="dp" />   
                 <StyledTextArea 
                     rowsMin={5} 
-                    placeholder="what's on your mind?"
+                    placeholder="what do you think about the CricBlog?Tell the community"
                     onChange={(e) => handleChange(e)} 
                     value={comment.comments}
                 />

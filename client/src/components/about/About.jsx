@@ -27,23 +27,13 @@ const About = () => {
         <Box>
             <Banner/>
             <Wrapper>
-                <Typography variant="h3">Code for Interview</Typography>
-                <Text variant="h5">I'm a Software Engineer based in India. 
-                    I've built websites, desktop applications and corporate software.<br />
-                    If you are interested, you can view some of my favorite projects here
-                    <Box component="span" style={{ marginLeft: 5 }}>
-                        <Link href="https://github.com/kunaltyagi9" color="inherit" target="_blank"><GitHub /></Link>
-                    </Box>
+                <Typography variant="h3">Umpire's Call</Typography>
+                <Text variant="h5">Umpire's Call is an open platform for all cricket lovers out there to prove a point - Cricket is best enjoyed when analysed.<br />
+                    Share your unique thoughts on this Platform and let thousands hear your voice through your CricBlogs.
                 </Text>
                 <Text variant="h5">
-                    Need something built or simply want to have chat? Reach out to me on
-                    <Box component="span" style={{ marginLeft: 5 }}>
-                        <Link href="https://www.instagram.com/codeforinterview/" color="inherit" target="_blank">
-                            <Instagram />
-                        </Link>
-                    </Box>  
-                        or send me an Email 
-                        <Link href="mailto:codeforinterview@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
+                    Connect With us!! We would love to hear from you!!
+                        <Link href="mailto:debspandan.business@gmail.com?Subject=Connecting with respect to Umpire's Call" target="_blank" color="inherit">
                             <Email />
                         </Link>.
                 </Text>
